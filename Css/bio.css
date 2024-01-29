@@ -1,0 +1,54 @@
+/**   This contains the css styling for the assignment
+    bio-page that will be linked with index.html file **/
+
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #333333;
+
+}
+
+h1 {
+    color: #eee;
+    font-size:  28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+#main-bio {
+    float: left;
+    max-width: 70%;
+    margin: 25px 50px 75px 100px;
+}
+
+#contact-info {
+    float: left;
+    max-width: 30%;
+    line-height: 1.5;
+    margin-top: 20px;
+    
+}
+
+a:any-link {
+    color:#d21034
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
